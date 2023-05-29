@@ -17,7 +17,7 @@ import java.util.Stack;
  * https://leetcode.cn/problems/remove-k-digits/solutions/482445/dong-tu-shuo-suan-fa-zhi-yi-diao-kwei-shu-zi-by-yu/
  * https://leetcode.cn/problems/remove-k-digits/solutions/2253613/yong-dan-diao-zhan-jie-jue-yi-diao-kwei-s56ff/
  */
-public class RemoveKDigits {
+public class RemoveKDigits_402 {
     static public String removeKdigits(String num, int k) {
         if (num.length() == k) {
             return "0";
