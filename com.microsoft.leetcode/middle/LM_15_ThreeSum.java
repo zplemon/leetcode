@@ -11,7 +11,7 @@ import java.util.List;
  * @Create 2023/7/24 17:27
  */
 
-public class LM15_ThreeSum {
+public class LM_15_ThreeSum {
     /**
      * 参考：
      * https://leetcode.cn/problems/3sum/solutions/11525/3sumpai-xu-shuang-zhi-zhen-yi-dong-by-jyd/

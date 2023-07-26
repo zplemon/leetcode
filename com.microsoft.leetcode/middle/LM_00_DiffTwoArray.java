@@ -1,6 +1,6 @@
 package com.microsoft.leetcode.middle;
 
-public class DiffTwoArray {
+public class LM_00_DiffTwoArray {
     public static int[] diffTowArray(int[] array1, int[] array2) {
         if (array1 == null && array2 == null) {
             return null;

@@ -10,9 +10,9 @@ import java.util.Random;
  * @Team: ofa-st
  * @Create 2023/7/17 17:07
  */
-public class Solution_Pick_398 {
+public class LM_398_Solution_Pick {
     private int[] nums;
-    public Solution_Pick_398(int[] nums) {
+    public LM_398_Solution_Pick(int[] nums) {
         this.nums = nums;
     }
 
@@ -49,7 +49,7 @@ public class Solution_Pick_398 {
 
     public static void main(String[] args) {
         int[] nums = new int[] {1, 2, 3, 3, 3};
-        Solution_Pick_398 solution_pick_398 = new Solution_Pick_398(nums);
+        LM_398_Solution_Pick solution_pick_398 = new LM_398_Solution_Pick(nums);
         System.out.println(solution_pick_398.pick(3));
 
         System.out.println(solution_pick_398.pick2(3));

@@ -1,7 +1,6 @@
 package com.microsoft.leetcode.middle;
 
 import java.util.HashMap;
-import java.util.List;
 
 /**
  * @Description TODO
@@ -20,7 +19,7 @@ import java.util.List;
  * 参考
  * https://leetcode.cn/problems/lru-cache/solution/146-lru-huan-cun-ji-zhi-ha-xi-biao-shuan-l3um/
  */
-public class LRUCache_146 {
+public class LM_146_LRUCache {
     private int capacity;
     private HashMap<Integer, ListNode> hashMap;
     private ListNode head;
@@ -44,7 +43,7 @@ public class LRUCache_146 {
 
     }
 
-    public LRUCache_146(int capacity) {
+    public LM_146_LRUCache(int capacity) {
         this.capacity = capacity;
         this.hashMap = new HashMap<>();
         this.head = new ListNode();

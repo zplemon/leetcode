@@ -1,7 +1,4 @@
 package com.microsoft.leetcode.middle;
-import java.util.HashMap;
-import java.util.Map;
-import java.util.SortedSet;
 
 /**
  * @Description TODO
@@ -29,7 +26,7 @@ import java.util.SortedSet;
 /**
  * 只是看了解析，但是没有写出来，有空再继续做吧
  */
-public class LM215_FindKthLargest {
+public class LM_215_FindKthLargest {
 
     public int findKthLargest(int[] nums, int k) {
 

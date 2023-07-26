@@ -1,6 +1,6 @@
 package com.microsoft.leetcode.middle;
 
-public class seqMaxNumber {
+public class LM_00_seqMaxNumber {
     public static int calSeqMaxNumber(int[] input) {
         if (input == null) {
             return 0;

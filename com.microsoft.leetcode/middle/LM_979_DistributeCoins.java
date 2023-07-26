@@ -9,7 +9,7 @@ package com.microsoft.leetcode.middle;
  * 链接：
  * https://leetcode.cn/problems/distribute-coins-in-binary-tree/solutions/2343542/shen-du-you-xian-sou-suo-si-lu-by-jiu-we-cy48/
  */
-public class DistributeCoins_979 {
+public class LM_979_DistributeCoins {
 
     /**
      * Definition for a binary tree node.

@@ -1,7 +1,5 @@
 package com.microsoft.leetcode.middle;
 
-import com.sun.xml.internal.ws.util.StringUtils;
-
 import java.util.HashSet;
 import java.util.Set;
 
@@ -23,7 +21,7 @@ import java.util.Set;
  * https://leetcode.cn/problems/longest-substring-without-repeating-characters/solutions/227999/wu-zhong-fu-zi-fu-de-zui-chang-zi-chuan-by-leetc-2/
  */
 
-public class LengthOfLongestSubstring_3 {
+public class LM_3_LengthOfLongestSubstring {
     public int lengthOfLongestSubstring(String s) {
         Set<Character> set = new HashSet<>();
         int left = 0;
