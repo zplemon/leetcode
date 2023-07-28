@@ -16,6 +16,15 @@ import java.util.HashMap;
  */
 
 /**
+ * LRU算法
+ * 关键点
+ * HashMap+双向链表
+ * HashMap用来保存链表上所有节点的位置，方便进行查找
+ * 双向链表是用来进行数据的插入和删除，每次访问以后，要将该节点放到head后面(head.next=最热节点)，如果是新插入的节点，也是放在head后面，如果链表长度超过最大容量，将最后一个节点删除(热度最低的节点)
+ * head和tail是辅助节点，不保存数据，刚开始head.next=tail，tail.pre=head
+ */
+
+/**
  * 参考
  * https://leetcode.cn/problems/lru-cache/solution/146-lru-huan-cun-ji-zhi-ha-xi-biao-shuan-l3um/
  */
